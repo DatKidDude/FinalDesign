@@ -1,3 +1,22 @@
+/* font-family: 'Montserrat', sans-serif; */
+:root {
+  --grey-300: #2e323f;
+  --grey-200: #3b4050;
+  --grey-100: #6f737f;
+  --white: #fff;
+  --brown: #a59678;
+
+  --fs-18: 1.125rem;
+  --fs-21: 1.3125rem;
+  --fs-24: 1.5rem;
+  --fs-30: 1.875rem;
+  --fs-36: 2.25rem;
+  --fs-90: 5.625rem;
+
+  --fw-400: 400;
+  --fw-700: 700;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,5 +24,70 @@
 }
 
 body {
-  background-color: steelblue;
+  font-family: "Oswald", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  background-color: var(--grey-300);
+  color: var(--white);
+}
+
+.btn {
+  background-color: var(--brown);
+}
+
+/* Section 1 */
+
+.section1 {
+  background-color: var(--grey-200);
+}
+
+.section1__title {
+  font-size: var(--fs-90);
+  color: var(--white);
+}
+
+.section1__title span {
+  color: var(--brown);
+}
+
+.section1__info {
+  font-size: var(--fs-24);
+  color: var(--white);
+}
+
+/* Section 2 */
+
+.section2 {
+  background-color: var(--grey-100);
+}
+
+.section2__title {
+  color: var(--brown);
+}
+
+/* Section 3 */
+.section3__title {
+  color: var(--brown);
+}
+
+.aside {
+  background-color: var(--grey-200);
+  color: var(--white);
+}
+
+.footer {
+  background-color: var(--grey-200);
+}
+
+.footer__title {
+  color: var(--brown);
+}
+
+.footer__info {
+  color: var(--white);
 }

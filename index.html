@@ -4,11 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Responsive Layout</title>
+    <!-- Google Fonts - Owswald/Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
+    <!-- Javascript -->
+    <script src="app.js" defer></script>
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container row">
         <button class="nav-toggle" aria-label="open navigation">
           <span class="hamburger"></span>
@@ -21,17 +31,17 @@
             <li class="nav__item">
               <a href="#">Home</a>
             </li>
-            <li class="nav__iteme">
+            <li class="nav__item">
               <a href="#">About</a>
             </li>
-            <li class="nav__iteme">
+            <li class="nav__item">
               <a href="#">Contact</a>
             </li>
-            <li class="nav__iteme">
+            <li class="nav__item">
               <a href="#">Sign In</a>
             </li>
-            <li class="nav__iteme">
-              <a class="nav__link--mod" href="#">Sign Up</a>
+            <li class="nav__item">
+              <a class="btn btn--nav" href="#">Sign Up</a>
             </li>
           </ul>
         </nav>
@@ -42,7 +52,8 @@
       <div class="container row">
         <div class="section1__col">
           <h1 class="section1__title">
-            Responsive layouts don't have to be a struggle
+            Responsive layouts
+            <span>don't have to be a struggle</span>
           </h1>
         </div>
         <div class="section1__col">
@@ -50,7 +61,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <a class="btn" href="#" type="button">I want to learn</a>
+          <a class="btn btn--primary" href="#" type="button">I want to learn</a>
         </div>
       </div>
     </section>
@@ -58,7 +69,7 @@
     <section class="section2">
       <div class="container row">
         <div class="section2__col">
-          <h2 class="section2__title">Mobie-first</h2>
+          <h2 class="section2__title">Mobile-first</h2>
           <p class="section2__info">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -130,7 +141,7 @@
       </div>
     </section>
 
-    <footer>
+    <footer class="footer">
       <div class="container row">
         <div class="footer__col footer__col1">
           <h3 class="footer__title">About our company</h3>

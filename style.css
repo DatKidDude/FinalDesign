@@ -258,7 +258,7 @@ img {
   font-size: var(--fs-30);
   text-align: center;
   color: var(--white);
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .footer__col:not(:last-child) {
@@ -408,5 +408,45 @@ img {
 
   .section2__col + .section2__col {
     margin-left: 8rem;
+  }
+
+  /* Section 3 */
+  .section3 {
+    padding: 100px 0;
+  }
+
+  .section3 .row {
+    flex-direction: row;
+  }
+
+  .section3__col1 {
+    width: 60%;
+  }
+
+  .section3__title {
+    font-size: var(--fs-36);
+  }
+
+  .section3__info {
+    font-size: var(--fs-18);
+  }
+
+  .section3__col-aside {
+    flex-direction: column;
+    gap: 1rem;
+    width: 30%;
+  }
+
+  /* Footer */
+  .footer__header {
+    font-size: var(--fs-64);
+  }
+
+  .footer__title {
+    font-size: var(--fs-24);
+  }
+
+  .footer__info {
+    font-size: var(--fs-18);
   }
 }
